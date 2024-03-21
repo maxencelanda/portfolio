@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Sen";
+    src: local("Sen"), url("./fonts/Sen/static/Sen-Regular.ttf"), format("truetype");
+}
+
+@font-face {
+    font-family: "Sulphur";
+    src: local("Sulphur"), url("./fonts/Sulphur_Point/SulphurPoint-Regular.ttf"), format("truetype");
+}
+
+.font-sen {
+    font-family: "Sen";
+}
+
+.font-sulphur {
+    font-family: "Sulphur";
+}
+
+button {
+    font-weight: bold;
+    text-align: center;
+}
