@@ -15,8 +15,8 @@ export default function Home({ title, content }) {
       <div className="flex">
         <div className="w-1/6">
           <p className="text-xl font-sulphur">BTS SIO SLAM</p>
-          <p className="mt-20">Github</p>
-          <p className="mt-20">Linkedin</p>
+          <p className="mt-20"><Link to="https://github.com/maxencelanda" target="_blank" rel="noopener noreferrer">Github</Link></p>
+          <p className="mt-20"><Link to="https://www.linkedin.com/in/maxence-landa-184122293/" target="_blank" rel="noopener noreferrer">Linkedin</Link></p>
         </div>
         <div className="w-5/6 mx-auto">
           <div className="col-span-5 m-10 text-center">{title}</div>

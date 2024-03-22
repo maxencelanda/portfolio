@@ -21,17 +21,14 @@ const router = createBrowserRouter([
   {
     path: '/projetsepsi',
     element: <Home title="Projets EPSI" content={<ProjetsEPSI/>}/>,
-    errorElement: <Link to='/'><img src={bob} className='w-full h-full'></img></Link>,
   }, 
   {
     path: '/projetsperso',
     element: <Home title="Projets Perso" content={<ProjetsPerso/>}/>,
-    errorElement: <Link to='/'><img src={bob} className='w-full h-full'></img></Link>,
   }, 
   {
     path: '/rapports',
-    element: <Home title="Projets Rapport" content={<Rapport/>}/>,
-    errorElement: <Link to='/'><img src={bob} className='w-full h-full'></img></Link>,
+    element: <Home title="Rapport" content={<Rapport/>}/>,
   }, 
 ]);
 
