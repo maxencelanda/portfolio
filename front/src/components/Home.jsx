@@ -1,6 +1,9 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
+import githubImg from "../assets/github.webp";
+import linkedImg from "../assets/linkedin.webp";
+
 export default function Home({ title, content }) {
 
   return (
@@ -15,8 +18,18 @@ export default function Home({ title, content }) {
       <div className="flex">
         <div className="w-1/6">
           <p className="text-xl font-sulphur">BTS SIO SLAM</p>
-          <p className="mt-20"><Link to="https://github.com/maxencelanda" target="_blank" rel="noopener noreferrer">Github</Link></p>
-          <p className="mt-20"><Link to="https://www.linkedin.com/in/maxence-landa-184122293/" target="_blank" rel="noopener noreferrer">Linkedin</Link></p>
+          <div className="mt-20 flex">
+            <Link to="https://github.com/maxencelanda" target="_blank" rel="noopener noreferrer" className="flex">
+              <img src={githubImg} className="w-8"></img>
+              <p className="mx-2">Github</p>
+            </Link>
+          </div>
+          <div className="mt-20 flex">
+            <Link to="https://www.linkedin.com/in/maxence-landa-184122293/" target="_blank" rel="noopener noreferrer" className="flex">
+              <img src={linkedImg} className="w-8"></img>
+              <p className="mx-2">Linkedin</p>
+            </Link>
+          </div>
         </div>
         <div className="w-5/6 mx-auto">
           <div className="col-span-5 m-10 text-center">{title}</div>
