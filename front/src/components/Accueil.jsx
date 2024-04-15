@@ -1,5 +1,7 @@
 import CompetenceCard from "./CompetenceCard";
 
+import cv from "../assets/CV.pdf"
+
 export default function Accueil() {
 
   const devBackSkills = ["PHP (Symfony)", "Javascript (NodeJS)", "Python (Flask, FastAPI)", "RESTful APIs"]
@@ -17,6 +19,8 @@ export default function Accueil() {
           <CompetenceCard title={"Systèmes Gestion Base de Données"} skills={sgbd}/>
           <CompetenceCard title={"Versionning"} skills={versionning}/>
         </div>
+        <p className="text-center mt-20">CV</p>
+        <iframe src={cv} className="w-1/2 mx-auto mt-10 h-full"></iframe>
     </div>
   )
 }
