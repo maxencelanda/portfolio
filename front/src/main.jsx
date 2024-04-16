@@ -8,10 +8,12 @@ import { createBrowserRouter, Link, RouterProvider } from "react-router-dom"
 import Home from './components/Home.jsx'
 import Accueil from './components/Accueil.jsx'
 import ProjetsEPSI from './components/ProjetsEPSI.jsx'
-import ProjetsPerso from './components/ProjetsPerso.jsx'
+import Competence from './components/Competence.jsx'
 import Rapport from './components/Rapport.jsx'
-import Agenda from './components/Projets/Agenda.jsx'
 
+import Patrimoine from './components/Categorie/Patrimoine.jsx'
+
+import Agenda from './components/Projets/Agenda.jsx'
 
 const router = createBrowserRouter([
   {
@@ -24,12 +26,16 @@ const router = createBrowserRouter([
     element: <Home title="Projets EPSI" content={<ProjetsEPSI/>}/>,
   },
   {
-    path: '/projetsperso',
-    element: <Home title="Projets Perso" content={<ProjetsPerso/>}/>,
+    path: '/competence',
+    element: <Home title="Competences" content={<Competence/>}/>,
   }, 
   {
     path: '/rapports',
     element: <Home title="Rapport" content={<Rapport/>}/>,
+  },
+  {
+    path: '/patrimoine',
+    element: <Home title="Gérer le patrimoine informatique" content={<Patrimoine/>}/>,
   },
   {
     path: '/projetsepsi/agenda',

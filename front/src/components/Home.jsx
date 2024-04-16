@@ -12,7 +12,7 @@ export default function Home({ title, content }) {
         <p className="text-3xl font-sulphur">MAXENCE LANDA</p>
         <Link to="/" className="text-center hover:underline">Accueil</Link>
         <Link to="/projetsepsi" className="text-center hover:underline">Projets EPSI</Link>
-        <Link to="/projetsperso" className="text-center hover:underline">Projets Perso</Link>
+        <Link to="/competence" className="text-center hover:underline">Competences</Link>
         <Link to="/rapports" className="text-center hover:underline">Rapport stage</Link>        
       </div>
       <div className="flex">

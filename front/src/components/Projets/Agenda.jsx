@@ -1,16 +1,16 @@
 import imgAgenda from "../../assets/projetAgenda.png"
-import { Link } from "react-router-dom"
+
+import Projet from "../Projet"
 
 export default function Agenda() {
+
+  const desc = "Agenda réalisé en groupe."
+  const outils = "Visual Studio Code, Github"
+  const technos = "PHP, MySQL"
+
   return (
     <div>
-        <div className="flex">
-        <img src={imgAgenda} className="w-1/2"></img>
-        <div className="ml-5 w-1/2">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis necessitatibus quibusdam, voluptatum porro sapiente hic quasi culpa ad consequuntur autem magni animi distinctio ducimus quia laboriosam vero assumenda? Ratione, exercitationem.</p>
-        </div>
-      </div>
-      <p className="mt-10">Github:<Link></Link></p>
+      <Projet title="Projet Agenda" image={imgAgenda} description={desc} github={""} file={undefined} outils={outils} technos={technos}></Projet>
     </div>
   )
 }

@@ -4,23 +4,11 @@ import cv from "../assets/CV.pdf"
 
 export default function Accueil() {
 
-  const devBackSkills = ["PHP (Symfony)", "Javascript (NodeJS)", "Python (Flask, FastAPI)", "RESTful APIs"]
-  const devFrontSkills = ["HTML/CSS", "Bootstrap, Tailwind", "JavaScript (ReactJS)"]
-  const sgbd = ["MariaDB", "MongoDB", "Firebase", "SQL Server", "SQLite"]
-  const versionning = ["Git"]
-
   return (
-    <div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim assumenda fugit qui recusandae illo autem blanditiis commodi voluptas nisi eos, eum repellendus ea impedit tempora repellat neque, adipisci dicta at.
-        <p className="text-center mt-20">Compétences</p>
-        <div className="flex mt-10">
-          <CompetenceCard title={"Développement Back-End"} skills={devBackSkills}/>
-          <CompetenceCard title={"Développement Front-End"} skills={devFrontSkills}/>
-          <CompetenceCard title={"Systèmes Gestion Base de Données"} skills={sgbd}/>
-          <CompetenceCard title={"Versionning"} skills={versionning}/>
-        </div>
+    <div className="">
+        Bonjour, je suis Maxence Landa et j'ai pour objectif de devenir développeur en intelligence artificielle.
         <p className="text-center mt-20">CV</p>
-        <iframe src={cv} className="w-1/2 mx-auto mt-10 h-full"></iframe>
+        <a href={cv} download="CV_landa_maxence.pdf" className="mx-auto bg-white p-2 mt-5 rounded-lg border border-black hover:bg-slate-100">Télécharger CV</a>
     </div>
   )
 }
