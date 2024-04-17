@@ -1,4 +1,6 @@
 import imgAgenda from "../../assets/projetAgenda.png"
+import githubAgenda from "../../assets/githubAgenda.png"
+
 
 import Projet from "../Projet"
 
@@ -10,7 +12,7 @@ export default function Agenda() {
 
   return (
     <div>
-      <Projet title="Projet Agenda" image={imgAgenda} description={desc} github={""} file={undefined} outils={outils} technos={technos}></Projet>
+      <Projet title="Projet Agenda" images={[imgAgenda, githubAgenda]} description={desc} github={undefined} file={undefined} outils={outils} technos={technos}></Projet>
     </div>
   )
 }
