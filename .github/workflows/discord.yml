@@ -1,21 +1,18 @@
-name: Test Success
-    uses: rjstone/discord-webhook-notify@v1
-    if: success()
-    with:
-        severity: info
-        details: Test Succeeded!
-        webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
-name: Test Failure
-    uses: rjstone/discord-webhook-notify@v1
-    if: failure()
-    with:
-        severity: error
-        details: Test Failed!
-        webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
-name: Test Cancelled
-    uses: rjstone/discord-webhook-notify@v1
-    if: cancelled()
-    with:
-        severity: warn
-        details: Test Cancelled!
-        webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
+name: Message on Push
+on:
+  push:
+    branches:
+      - main
+jobs:
+  message:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Discord notification
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      uses: Ilshidur/action-discord@master
+      with:
+        args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed.'
