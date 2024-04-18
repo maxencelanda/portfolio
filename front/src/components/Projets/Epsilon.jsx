@@ -4,7 +4,7 @@ import Projet from "../Projet"
 
 export default function Epsilon() {
 
-  const desc = "Epsilon est un projet d'envoi de fichier avec authentification, ajout à la base de donnée et sauvegarde en local. Réalisé avec BOUSSEKEYT Vladimir."
+  const desc = "Epsilon est une plateforme de peer-learning pour envoyer de fichier avec authentification, ajout à la base de donnée et sauvegarde en local. Maintenance continue du projet. Réalisé avec BOUSSEKEYT Vladimir."
   const outils = "Visual Studio Code, Github, Phpmyadmin, Trello"
   const technos = "Python FastAPI, MySQL, ReactJS"
 

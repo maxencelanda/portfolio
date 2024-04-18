@@ -6,7 +6,7 @@ import Projet from "../Projet"
 
 export default function Agenda() {
 
-  const desc = "Agenda réalisé en groupe."
+  const desc = "Agenda avec un CRUD pour ajouter des évènements, des groupes."
   const outils = "Visual Studio Code, Github"
   const technos = "PHP, MySQL"
 
