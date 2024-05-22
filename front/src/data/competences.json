@@ -1,0 +1,146 @@
+{
+    "Gérer le patrimoine informatique": {
+        "projets": [
+            {
+                "projet": "Agenda",
+                "justification": "L'arborescence de ce projet n'est pas claire, car ce projet fait parti de notre premier projet de groupe.",
+                "images": ["agendaExplorer.png"]
+            },
+            {
+                "projet": "Application Touristique",
+                "justification": "L'application contient un front-end avec des templates et un back-end en Flask.",
+                "images": ["appTouristiqueExplorer.png"]
+            },
+            {
+                "projet": "ACME Site E-Commerce",
+                "justification": "L'application contient un back-end Symfony, avec twig utilisé pour le front.",
+                "images": ["acmeExplorateur.png"]
+            },
+            {
+                "projet": "Application Mobile Stock",
+                "justification": "L'application contient un front-end React Native et un back-end Symfony.",
+                "images": ["stockExplorateur.png"]
+            },
+            {
+                "projet": "Epsilon Peer-learning",
+                "justification": "L'application contient un front-end ReactJS et un back-end FastAPI.",
+                "images": ["epsilonExplorer.png"]
+            },
+            {
+                "projet": "Tour de France",
+                "justification": "L'application contient un front-end ReactJS et un back-end Node/Express.",
+                "images": ["tdfExplorer.png"]
+            }
+        ]
+    },
+    "Répondre aux incidents et aux demandes d'assistance et d'évolution": {
+        "projets": [
+            {
+                "projet": "Epsilon Peer-learning",
+                "justification": "Le projet Epsilon est un projet de peer-learning, qui a pour but d'évoluer petit à petit en ajoutant de nouvelles fonctionnalités, modifier un code inconnu et passer d'une technologie à une autre.",
+                "images": ["epsilonEvolution.png"]
+            }
+        ]
+    },
+    "Développer la présence en ligne de l'organisation": {
+        "projets": [
+            {
+                "projet": "Portfolio",
+                "justification": "Ce portfolio est hébergé sur un VPS loué chez l'hébergeur OVH.",
+                "images": ["portfolioOVH.png", "portfolioUbuntu.png"]
+            },
+            {
+                "projet": "Stage Debra Hardstaff",
+                "justification": "Ce site est hébergé sur OVH.",
+                "images": ["debbieressources.png"]
+            }
+        ]
+    },
+    "Travailler en mode projet": {
+        "projets": [
+            {
+                "projet": "Agenda",
+                "justification": "Travail en groupe en utilisant Discord pour communiquer et Github pour permettre de travailler sur le même projet.",
+                "images": ["githubAgenda.png", "agendaDiscord.png"]
+            },
+            {
+                "projet": "Infrastructure Web",
+                "justification": "Travail en groupe en utilisant Discord pour communiquer.",
+                "images": ["infrawebDiscord.png"]
+            },
+            {
+                "projet": "ACME Site E-Commerce",
+                "justification": "Travail en groupe en utilisant Discord pour communiquer et Github pour permettre de travailler sur le même projet. Le Trello permet de pouvoir attribuer et trier les tâches facilement.",
+                "images": ["trelloACME.png", "acmeGithub.png"]
+            },
+            {
+                "projet": "Application Mobile Stock",
+                "justification": "Travail en groupe en utilisant Discord pour communiquer et Github pour permettre de travailler sur le même projet. Le Trello permet de pouvoir attribuer et trier les tâches facilement.",
+                "images": ["stockGithubb.png", "stockTrello.png"]
+            },
+            {
+                "projet": "Epsilon Peer-learning",
+                "justification": "Travail en groupe en utilisant Discord pour communiquer et Github pour permettre de travailler sur le même projet. Le Trello permet de pouvoir attribuer et trier les tâches facilement.",
+                "images": ["trelloEpsilon.png", "epsilonGithub.png"]
+            },
+            {
+                "projet": "Tour de France",
+                "justification": "Travail en groupe en utilisant Discord pour communiquer et Github pour permettre de travailler sur le même projet.",
+                "images": ["githubTDF.png", "tdfDiscord.png"]
+            }
+        ]
+    },
+    "Mettre à disposition des utilisateurs un service informatique": {
+        "projets": [
+            {
+                "projet": "ACME Site E-Commerce",
+                "justification": "Création d'une documentation utilisateur et d'une documentation technique pour les développeurs.",
+                "images": ["acmeDocUtilisateur.jpg"]
+            },
+            {
+                "projet": "Application Mobile Stock",
+                "justification": "Création d'une documentation utilisateur et d'une documentation technique pour les développeurs, avec un README sur Github pour lancer le projet.",
+                "images": ["acmeDocutil.png", "stockReadme.png"]
+            },
+            {
+                "projet": "Epsilon",
+                "justification": "README sur le Github du projet Epsilon.",
+                "images": ["epsilonReadME.png"]
+            }
+        ]
+    },
+    "Organiser son développement professionnel": {
+        "projets": [
+            {
+                "projet": "Agenda",
+                "justification": "Lecture de la documentation de PHP avec le PDO pour lier un script PHP à une base de donnée MySQL.",
+                "images": ["agendaTuto.png"]
+            },
+            {
+                "projet": "Infrastructure Web",
+                "justification": "Visionnage d'un tutoriel pour l'installation d'un DNS pour l'infrastucture web.",
+                "images": ["infraTuto.png"]
+            },
+            {
+                "projet": "ACME Site E-Commerce",
+                "justification": "Visionnage d'un tutoriel pour la réalisation d'un back pour une application web, avec en supplément la documentation Symfony (à jour) et des cours.",
+                "images": ["acmeTuto.png"]
+            },
+            {
+                "projet": "Application Mobile Stock",
+                "justification": "Visionnage d'un tutoriel pour la réalisation d'une application mobile en React Native, avec en supplément des cours.",
+                "images": ["stockTuto.png"]
+            },
+            {
+                "projet": "Epsilon Peer-learning",
+                "justification": "Lecture de la documentation de FastAPI pour le back-end et gérer les fichiers reçus par formulaire.",
+                "images": ["epsilonTuto.png"]
+            },
+            {
+                "projet": "Tour de France",
+                "justification": "Lecture de la documentation de ExpressJS pour réaliser le back-end.",
+                "images": ["tdfTuto.png"]
+            }
+        ]
+    }
+}

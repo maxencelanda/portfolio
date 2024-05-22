@@ -1,0 +1,72 @@
+{
+    "Agenda": {
+        "description": "Agenda avec un CRUD pour ajouter des évènements et des groupes.",
+        "dateDebut": "12/2022",
+        "dateFin": "07/2023",
+        "outils": "Visual Studio Code, phpmyadmin",
+        "technos": "PHP, SQL",
+        "github": "",
+        "images": [],
+        "fichiers": []
+    },
+    "Infrastructure Web": {
+        "description": "Réalisation d'une infrastructure web avec une machine virtuelle client, serveur web et DNS.",
+        "dateDebut": "02/2023",
+        "dateFin": "02/2023",
+        "outils": "Oracle Virtualbox",
+        "technos": "/",
+        "github": "",
+        "images": [],
+        "fichiers": []
+    },
+    "Application Touristique": {
+        "description": "Projet d'application web contenant un CRUD pour gérer les données de voyages touristiques.",
+        "dateDebut": "03/2023",
+        "dateFin": "05/2023",
+        "outils": "Visual Studio Code, SQLite",
+        "technos": "Python Flask, SQL",
+        "github": "",
+        "images": [],
+        "fichiers": []
+    },
+    "ACME E-Commerce": {
+        "description": "Projet d'application web e-commerce pour vendre des produits. On y retrouve une page connexion/inscription, un catalogue pouvant être trié, un panier et un CRUD pour ajouter, modifier et supprimer les données.",
+        "dateDebut": "12/2023",
+        "dateFin": "12/2023",
+        "outils": "Visual Studio Code, phpmyadmin, Looping, Figma",
+        "technos": "PHP Symfony, Twig, HTML/CSS, SQL",
+        "github": "",
+        "images": [],
+        "fichiers": []
+    },
+    "Application Mobile Stock": {
+        "description": "Projet d'application mobile de gestion de stock, permettant à un utilisateur de voir des produits, les modifier, en ajouter et supprimer.",
+        "dateDebut": "04/2024",
+        "dateFin": "04/2024",
+        "outils": "Visual Studio Code, phpmyadmin, Looping, Figma",
+        "technos": "PHP Symfony, React Native, SQL",
+        "github": "",
+        "images": [],
+        "fichiers": []
+    },
+    "Tour de France": {
+        "description": "Projet d'application web contenant un CRUD pour gérer les données du Tour de France 2022. On peut voir des données comme les coureurs, leurs équipes, les résultats des courses et aussi les classements.",
+        "dateDebut": "04/2024",
+        "dateFin": "04/2024",
+        "outils": "Visual Studio Code, phpmyadmin, Looping",
+        "technos": "NodeJS, ExpressJS, ReactJS, Python, SQL",
+        "github": "",
+        "images": [],
+        "fichiers": []
+    },
+    "Epsilon Peer-learning": {
+        "description": "Projet d'application web de peer-learning. Un utilisateur peut suivre des formations, envoyer des documents qui peuvent être corrigés par d'autres utilisateurs ayant réussi la formation.",
+        "dateDebut": "04/2024",
+        "dateFin": "06/2024",
+        "outils": "Visual Studio Code, phpmyadmin, Looping",
+        "technos": "Nuxt, VueJS, SQL",
+        "github": "",
+        "images": [],
+        "fichiers": []
+    }
+}
