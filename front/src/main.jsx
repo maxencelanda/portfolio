@@ -28,6 +28,7 @@ import Developpement from './components/Categorie/Developpement.jsx'
 */
 import Stage from './components/Stage.jsx'
 import Realisations from './components/Realisations.jsx'
+import Veille from './components/Veille.jsx'
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
   {
     path: '/stages',
     element: <Home title="Stages" content={<Stage/>}/>,
+  },
+  {
+    path: '/veille',
+    element: <Home title="Veille" content={<Veille/>}/>,
   },
 ]);
 

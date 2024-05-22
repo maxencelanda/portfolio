@@ -8,13 +8,14 @@ export default function Home({ title, content }) {
 
   return (
     <div className="min-h-screen bg-gray-50 font-sen text-2xl">
-      <div className="grid grid-cols-6 p-5 gap-2 bg-gray-200 sticky top-0">
+      <div className="grid grid-cols-7 p-5 gap-2 bg-gray-200 sticky top-0">
         <p className="text-3xl font-sulphur">MAXENCE LANDA<br></br><p className="text-xl">BTS SIO SLAM</p></p>
         <Link to="/" className="text-center hover:underline">Accueil</Link>
         <Link to="/realisations" className="text-center hover:underline">Realisations</Link>
         <Link to="/projets" className="text-center hover:underline">Competences</Link>
         <Link to="/documents" className="text-center hover:underline">Documents</Link>
         <Link to="/stages" className="text-center hover:underline">Stages</Link>
+        <Link to="/veille" className="text-center hover:underline">Veille</Link>
       </div>
       <div className="flex">
         <div className="w-1/6 ml-5">
